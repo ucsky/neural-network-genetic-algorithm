@@ -3,6 +3,7 @@ import random
 import logging
 from train import train_and_score
 
+
 class Network():
     """Represent a network and let us operate on it.
 
@@ -11,6 +12,7 @@ class Network():
 
     def __init__(self, nn_param_choices=None):
         """Initialize our network.
+
 
         Args:
             nn_param_choices (dict): Parameters for the network, includes:
